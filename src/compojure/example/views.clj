@@ -6,5 +6,13 @@
   [:#old] (html/content (:old ctxt))
   [:#msg2] (html/set-attr "style" "display: none"))
 
+
+(html/deftemplate auth-index "./../resources/signin.html" [ctxt]
+  [:title] (html/content "Sign in"))
+  
 (defn index-page []
   (page-index {:old "123"}))
+
+(defn auth-page []
+  (auth-index {}))
+
