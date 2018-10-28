@@ -1,13 +1,33 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Natalia Valkova</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+    <script src="public/js/index.js"></script>
 </head>
 
 <body>
-    <div>
-        <h1 id="title"></h1>
-        <h3 id="subtitle"></h3>
-        <div id="description"></div>
+    <div class='container'>
+        <div class='menu'>
+                <div id="title">Natalia Valkova</div>
+                <div id="subtitle">Designer</div>
+                <div id="description">description</div>
+        </div>
+
+        <div class='content'>
+            <div class='mansory'>
+                <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+                    <div class="grid-item">
+                        <img src="https://www.rd.com/wp-content/uploads/2016/04/01-cat-wants-to-tell-you-laptop.jpg" />
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" />
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://s.abcnews.com/images/International/street-cat-night--1-gty-mem-180921_hpMain_16x9_992.jpg" />
+                    </div>
+                  </div>
+            </div>
+        </div>
     </div>
